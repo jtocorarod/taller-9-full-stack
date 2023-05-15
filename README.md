@@ -7,3 +7,8 @@
 
 <h2>Punto 1 : Link de Figma</h2>
 <a href="https://www.figma.com/file/XZjr1jfLn81j5EmHUiKqWj/Johann-Tocora---Wireframe%2FMockup-Exercise-Rita?type=design&node-id=0-1&t=XTOM8ehrnguAybUO-0">Link de Figma</a>
+
+<h2>Punto 2 : HTML</h2>
+<img 
+src="./public/images/html.png" 
+alt="html">
