@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UD Atenea Cursos</title>
+    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
-            <div>
+            <div class="header__navigation">
                 <img src="./public/images/header-logo.png" alt="main-logo">
                 <nav>
                     <ul>
@@ -20,106 +22,109 @@
                 </nav>
             </div>
 
-            <div>
-            <div>
-                <img src="./public/images/header-word.png" alt="world"> 
-                <span>Español</span>
+            
+            <div class="header__settings">               
+                <div>
+                    <img src="./public/images/header-word.png" alt="world"> 
+                    <span>Español</span>
+                </div>   
+                <button>Ingresar</button>
             </div>
-            <button>Ingresar</button>
-            </div>
-
+            
     </header>
+
     <main>
-        <section id="banner">
-          <div>
-            <div>
-                <h1>Aprovecha la era digital, toma clases en línea</h1>
-                <p>
-                    Toma los cursos más importantes de tecnología con clases en línea,
-                    donde podrás tener acceso a contenido actualizado desde la comodidad
-                    de tu casa y a tu ritmo
-                </p>
-            </div>
-            <div>
-                <button>Saber más</button> 
-                <button>Planes</button> 
-            </div> 
-          </div>
-         <img src="./public/images/banner-online.png" height="350px" width="550px">
- 
-           
-
-        </section>
-        <section id="section-1">
-            <div>
-                <h2>Por qué elegirnos a nosotros</h2>
-                <p> Somos una universidad en constante actualización y nos gusta el cambio,
-                    te enseñamos tecnologías contemporáneas
-                </p>
-            </div>
-            <div>
-                <img src="./public/images/section1-education.png" 
-                alt="education" 
-                height="120px" 
-                width="120x"
-                >
-                <h3>Virtualidad y educación</h3>
-            </div>
-            <div>
-                <h3>Alcance de objetivos</h3>
-                <img src="./public/images/section1-goals.png" 
-                alt="goals" 
-                height="120px" 
-                width="120x"                
-                >
-            </div>
-            <div>
-                <img src="./public/images/section1-teach.png" 
-                alt="teach" 
-                height="120px" 
-                width="120x"
-                >
-                <h3>Clases Inclusivas</h3>
-            </div>
-        </section>
-        <section id="section-2">
-            <div>               
-                    <img 
-                        src="./public/images/section2-tools.png"
-                        alt="tools"
-                        width="500px"
-                        height="350px"                   
-                    >                             
-                <div>
-                    <h2>Brindamos herramientas para que tu aprendizaje</h2>
-                    <h2>sea efectivo</h2>
-                    <p> 
-                        Las herramientas digitales son nuestras aliadas y aprovechamos 
-                        cada una de estas para brindarte la mejor experencia en línea
-                    </p>
-                    <button>Saber más</button>
-                </div>             
-            </div>
-
+            <section id="banner">
             <div>
                 <div>
-                    <h2>Educación pensando en</h2>
-                    <h2>objetivos alcanzados</h2>
-                    <p> 
-                        Es importante para nosotros que las metas de cada uno de nuestros 
-                        estudiantes sea alcanzada a través de nuestros cursos
+                    <h1>Aprovecha la era digital, toma clases en línea</h1>
+                    <p>
+                        Toma los cursos más importantes de tecnología con clases en línea,
+                        donde podrás tener acceso a contenido actualizado desde la comodidad
+                        de tu casa y a tu ritmo
                     </p>
-                    <button>Saber más</button>                                                                                                                                                              
                 </div>
-                    <img 
-                        src="./public/images/section2-goals.png"
-                        alt="goals"
-                        width="500px"
-                        height="350px"      
-                    >                
-            </div>          
-        </section>
+                <div>
+                    <button class="button--orange">Saber más</button> 
+                    <button class="button--white">Planes</button> 
+                </div> 
+            </div>
+            <img src="./public/images/banner-online.png" height="350px" width="550px">
+    
+            
+
+            </section>
+            <section id="section-1">
+                <div>
+                    <h2>Por qué elegirnos a nosotros</h2>
+                    <p> Somos una universidad en constante actualización y nos gusta el cambio,
+                        te enseñamos tecnologías contemporáneas
+                    </p>
+                </div>
+                <div>
+                    <img src="./public/images/section1-education.png" 
+                    alt="education" 
+                    height="120px" 
+                    width="120x"
+                    >
+                    <h3>Virtualidad y educación</h3>
+                </div>
+                <div>
+                    <h3>Alcance de objetivos</h3>
+                    <img src="./public/images/section1-goals.png" 
+                    alt="goals" 
+                    height="120px" 
+                    width="120x"                
+                    >
+                </div>
+                <div>
+                    <img src="./public/images/section1-teach.png" 
+                    alt="teach" 
+                    height="120px" 
+                    width="120x"
+                    >
+                    <h3>Clases Inclusivas</h3>
+                </div>
+            </section>
+            <section id="section-2">
+                <div>               
+                        <img 
+                            src="./public/images/section2-tools.png"
+                            alt="tools"
+                            width="500px"
+                            height="350px"                   
+                        >                             
+                    <div>
+                        <h2>Brindamos herramientas para que tu aprendizaje</h2>
+                        <h2>sea efectivo</h2>
+                        <p> 
+                            Las herramientas digitales son nuestras aliadas y aprovechamos 
+                            cada una de estas para brindarte la mejor experencia en línea
+                        </p>
+                        <button class="button--orange">Saber más</button>
+                    </div>             
+                </div>
+
+                <div>
+                    <div>
+                        <h2>Educación pensando en</h2>
+                        <h2>objetivos alcanzados</h2>
+                        <p> 
+                            Es importante para nosotros que las metas de cada uno de nuestros 
+                            estudiantes sea alcanzada a través de nuestros cursos
+                        </p>
+                        <button class="button--orange">Saber más</button>                                                                                                                                                              
+                    </div>
+                        <img 
+                            src="./public/images/section2-goals.png"
+                            alt="goals"
+                            width="500px"
+                            height="350px"      
+                        >                
+                </div>          
+            </section>
     </main>
+    
     <footer id="footer">
         <div>
             <img src="./public/images/footer-logo.png"
