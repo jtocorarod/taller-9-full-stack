@@ -40,6 +40,14 @@ button {
     border: 1px solid #fff;
 }
 
+.button--pink {
+    background-color: #ED80FD;
+        color: #fff;
+        border: none;
+        
+}
+
+
 p {
     font-family: 'Jost';
     font-size: 15px;
