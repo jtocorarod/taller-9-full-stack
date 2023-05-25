@@ -1,0 +1,16 @@
+.parrafo-azul {
+    color: blue;
+    
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.parrafo-rojo {
+    color: red;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
