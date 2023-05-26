@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    align-items: center;
+}
+
+.first-link {
+    color: yellow;
+    
+}
+
+.second-link {
+    color: rgb(180, 35, 216);
+    
+}
