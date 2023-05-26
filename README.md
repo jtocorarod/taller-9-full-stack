@@ -17,3 +17,7 @@ src="./public/images/html.png" alt="html">
 <h2>Punto 3 : CCS</h2>
 <img 
 src="./public/images/html-css.png" alt="css">
+
+<h2>Punto 4 </h2>
+<img 
+src="./public/images/punto-4.png" alt="css">
