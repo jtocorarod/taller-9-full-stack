@@ -1,0 +1,42 @@
+#header {
+    display: flex;
+    margin: 200px 300px;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    width: 450px;
+    align-items: center;
+
+    list-style: none;  
+    background-color: #d6afdc;
+    padding: 10px 0px 10px 20px;
+}
+
+.first-li {
+    padding: 10px;
+    background-color: #0000ff;
+    margin: 0px -10px 0px 0px;
+
+}
+
+
+
+
+
+/*color boton inicio:
+
+  
+
+ffff00 amarillo del punto 9
+
+
+*/

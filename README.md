@@ -26,3 +26,7 @@ src="./public/images/punto-4.png" alt="punto-4">
 <img 
 src="./public/images/punto-5.png" alt="punto-5">
 
+<h2>Punto 6 </h2>
+<img 
+src="./public/images/punto-6.png" alt="punto-6">
+
