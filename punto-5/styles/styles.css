@@ -1,0 +1,50 @@
+/*Estilos Globales*/
+main {
+    display: flex;
+    justify-content: center;
+    padding: 15%;
+}
+  
+  p {
+    font-size: 12px;
+    letter-spacing: -0.1px;
+  }
+
+
+/*Estilos Parrafo 1*/
+
+u {
+    text-align: right;
+    color: green;
+}
+
+.paragraph-1 b {
+    color: red;
+}
+
+.paragraph-1 span {
+    text-decoration:underline overline;
+}
+
+/*Estilos Parrafo 2*/
+.paragraph-2 {
+    margin-bottom: 20px;
+}
+.paragraph-2 strong {
+font-size: 30px;
+}
+
+/*Estilos Parrafo 3*/
+.paragraph-3{
+    font-size: 16px;
+}
+.paragraph-3 b {   
+   color: blue;
+}
+
+.paragraph-3 strong {  
+    text-decoration: solid 2px underline; 
+    color: red;
+ }
+
+

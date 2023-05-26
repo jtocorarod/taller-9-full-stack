@@ -20,4 +20,9 @@ src="./public/images/html-css.png" alt="css">
 
 <h2>Punto 4 </h2>
 <img 
-src="./public/images/punto-4.png" alt="css">
+src="./public/images/punto-4.png" alt="punto-4">
+
+<h2>Punto 5 </h2>
+<img 
+src="./public/images/punto-5.png" alt="punto-5">
+
