@@ -32,4 +32,8 @@ src="./public/images/punto-6.png" alt="punto-6">
 
 <h2>Punto 7-8 </h2>
 <img 
-src="./public/images/punto-7-8.png" alt="punto-6">
+src="./public/images/punto-7-8.png" alt="punto-7-8">
+
+<h2>Punto 9 </h2>
+<img 
+src="./public/images/punto-9.png" alt="punto-9">
