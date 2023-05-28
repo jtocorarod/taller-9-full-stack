@@ -1,0 +1,40 @@
+
+table {   
+    border-spacing: 0;/*Elimina los espacios entre celdas*/
+    background-color: #ffff00;     
+}
+
+div {
+    display: flex;
+    margin: 200px 300px;
+    justify-content: center;
+}
+
+th {
+    border: 1px dotted #000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    color: red;   
+}
+
+span {
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+  } 
+
+p{
+    margin:0;
+    padding-right: 35px;
+}
+
+td {
+    border:  1px dotted #000;   
+}
+
+.td-border-style {
+    border-bottom: red 2px dashed;
+    text-align: left;
+}
+
