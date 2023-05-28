@@ -5,9 +5,11 @@ table {
 }
 
 div {
+    margin-top: 15%;
     display: flex;
-    margin: 200px 300px;
-    justify-content: center;
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    
 }
 
 th {
